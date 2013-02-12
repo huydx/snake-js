@@ -185,7 +185,7 @@ $(document).ready(function(){
   snakeGame.timer = 
     setInterval(function(e){
       snakeGame.step();
-    }, 200);
+    }, 100);
 
   $("#stop").click(function(){snakeGame.end_game();});
   $("#reload").click(function(){location.reload();});
